@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "parking"
+version = "1.0.0"
+description = "Municipal parking permits and citations (Build Challenge 3)"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["parking"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

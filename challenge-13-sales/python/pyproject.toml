@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "challenge-13-sales"
+version = "1.0.0"
+description = "Build Challenge 13: Sales data analysis using functional-style CSV processing"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["sales"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

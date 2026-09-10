@@ -1,0 +1,20 @@
+# Ignore everything by default; this repo only tracks Python code.
+*
+
+# But do descend into directories to find allowed files.
+!*/
+
+# Allow Python source and standard Python project files.
+!*.py
+!pyproject.toml
+!pytest.ini
+!requirements*.txt
+!.gitignore
+
+# Re-ignore Python build/test artifacts even though *.py is allowed above.
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
