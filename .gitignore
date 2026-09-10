@@ -10,6 +10,12 @@
 !pytest.ini
 !requirements*.txt
 !.gitignore
+!README.md
+
+# Allow the dataset fixture(s) actually used by these solutions.
+!data/v5/
+!data/v5/challenge-4/
+!data/v5/challenge-4/sales.csv
 
 # Re-ignore Python build/test artifacts even though *.py is allowed above.
 __pycache__/
